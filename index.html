@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabajo Práctico Evaluativo - Python</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h1>Trabajo Práctico Evaluativo</h1>
+</header>
+
+<div class="container">
+        <h2>
+            Profesor: Garay Cristian. <br>
+            Alumno: Muñoz Santiago. <br>
+            Curso: 6to 2da.
+        </h2>
+        <ul class="question-list">
+        <h6>haga click en cada pregunta y debajo de todas las preguntas esta la respuesta</h6>
+
+        <li onclick="showAnswer('python')">¿Qué es Python?</li>
+        <li onclick="showAnswer('uso-python')">¿Qué se puede hacer con Python?</li>
+        <li onclick="showAnswer('creacion-webs')">Creación de webs</li>
+        <li onclick="showAnswer('videojuegos')">Desarrollo de videojuegos</li>
+        <li onclick="showAnswer('gestion-empresarial')">Sistemas de gestión empresarial</li>
+        <li onclick="showAnswer('comercio-electronico')">Comercio electrónico</li>
+        <li onclick="showAnswer('machine-learning')">Machine Learning</li>
+        <li onclick="showAnswer('sectores-python')">¿Para qué sectores vale Python? ¿Dónde se usa?</li>
+        <li onclick="showAnswer('depuracion')">¿Qué es la depuración (debugging)?</li>
+        <li onclick="showAnswer('lenguaje-python')">Desarrollar el lenguaje de programación de Python. Diagrama de flujo.</li>
+        <li onclick="showAnswer('teorema-ambiguedad')">Desarrollar teorema fundamental de ambigüedad.</li>
+        <li onclick="showAnswer('palabras-reservadas')">Escribir las 28 palabras reservadas de Python</li>
+    </ul>
+
+    <div id="answer-container" class="answer-container">
+        <p id="answer-text"></p>
+    </div>
+</div>
+
+
+<footer>
+    <p>© 2024 <a href="https://saantulii.github.io/Mylife/" target="_blank">Santuli</a></p>
+</footer>
+
+<script src="script.js" defer></script>
+
+</body>
+</html>

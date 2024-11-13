@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: white;
+}
+.question-list {
+    list-style-type: none;
+    padding: 0;
+}
+.question-list li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+button {
+    background-color: wheat;
+    color: white;
+    padding: 15px 32px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+button:hover {
+    background-color: #45a049;
+}
+.answer-container {
+    display: none;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.question-list li {
+    cursor: pointer;
+    margin: 10px 0;
+}
+
+.question-list li:hover {
+    color: #3498db;
+}
+footer { 
+    text-align: center; 
+    margin-top: 30px; 
+    font-size: 24px; 
+    color: white;
+    padding: 5px;
+    background-color: #333; 
+}
+
+p a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+p a:hover{
+    text-decoration: underline;
+    text-decoration-color: aqua;
+}
+
+h6{
+    color: red;
+}
